@@ -1,0 +1,95 @@
+#0b1238 == dark blue == #0b1238
+#f4f8fc == #F4F8FB == 5%
+#e9f0f8 == 10%
+#d70f64 == brand primary
+#2c71bb == brand secondary
+#ffffff == white
+
+#0b1238 == dark blue == #0b1238
+#2c71bb == brand secondary
+#b1c7e3 == #ABC5E5 == 40%
+#d7e3f1 == #D4E3F0 == 20%
+#d70f64 == brand primary
+#7faad5 == #7FAAD5 == 60%
+#ffffff == white
+
+#f4f8fb == #F4F8FB == 5%
+#abc5e4 == #ABC5E5 == 40%
+#ffffff == white
+#2c71bb == brand secondary
+#d4e3f0 == #D4E3F0 == 20%
+#95b9dd == #95B9DD == 50%
+#0b1238 == dark blue == #0b1238
+#d70f64 == brand primary
+none    == transparent
+
+
+brandSecondary5: rgba(44,113,187, .05)
+brandSecondary10: rgba(44,113,187, .1)
+brandSecondary20: rgba(44,113,187, .2)
+brandSecondary30: rgba(44,113,187, .3)
+brandSecondary40: rgba(44,113,187, .4)
+brandSecondary50: rgba(44,113,187, .5)
+brandSecondary60: rgba(44,113,187, .6)
+brandSecondary70: rgba(44,113,187, .7)
+brandSecondary80: rgba(44,113,187, .8)
+brandSecondary90: rgba(44,113,187, .9)
+brandSecondary: rgba(44,113,187, 1)
+
+
+brandPrimary: rgb(215,15,100)
+
+======
+darkBlueClasses = ['']
+
+
+
+=================
+
+// not found
+.one404{fill:#0b1238} === dark blue
+.no-res-1{fill:#0b1238} === dark blue
+.oops-7{fill:#0b1238} === dark blue
+
+.four404{fill:#fde8f1} === brand primary
+.no-res-5{fill:#d70f64} === brand primary
+.oops-8{fill:#d70f64} === brand primary
+
+
+.five404{fill:#2c71bb} === brand secondary
+.no-res-2{fill:#2c71bb} === brand secondary
+.oops-4{fill:#2c71bb} === brand secondary
+
+
+.two404{fill:#F4F8FB} === 5%
+.oops-1{fill:#f4f8fb} === 5%
+
+
+.three404{fill:#e9f0f8} === 10%
+
+.no-res-4{fill:#D4E3F0} === 20%
+.oops-5{fill:#d4e3f0} === 20%
+
+.no-res-3{fill:#ABC5E5} === 40%
+.oops-2{fill:#abc5e4} === 40%
+
+
+.oops-6{fill:#95b9dd} === 50%
+
+.no-res-6{fill:#7faad5} === 60%
+
+.six404{fill:#fff} === white
+.no-res-7{fill:#fff} === white
+.oops-3{fill:#fff} === white
+
+
+// no restaurant found
+
+
+// oops
+.oops-9{fill:none} 
+
+
+.color-secondary-30 === BFD3EB
+.color-secondary-70 === 2C71BB
+.color-secondary-80 === 568CC8

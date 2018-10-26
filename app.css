@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+.hidden {
+    display: none
+}
+
+#wrapper {
+    padding: 30px
+}
+
+.control {
+    width: 30%;
+    float: left;
+    height: 100vh;
+}
+
+input {
+    display: inline-block;
+}
+
+.svg-wrapper {
+    width: 70%;
+    float: right;
+    /* overflow: hidden; */
+}
+
+.illu {
+    width: 70%;
+    float: left;
+    overflow: hidden;
+}
+
+/* svg {
+    width: 50%;
+} */
