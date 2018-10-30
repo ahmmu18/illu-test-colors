@@ -35,6 +35,129 @@ input {
     overflow: hidden;
 }
 
+.illustrations-buttons-wrapper {
+    /* display: block;
+    width: 100%;
+    float: none; */
+    overflow: hidden;
+}
+
+.illustrations-buttons-wrapper button, #apply-custom-color {
+    padding: 10px 15px;
+    background: black;
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    display: inline-block;
+    float: left;
+    border: 1px solid white;
+}
+
+.illustrations-buttons-wrapper button:hover,
+.illustrations-buttons-wrapper button:active,
+.illustrations-buttons-wrapper button:focus {
+    background: tomato;
+    cursor: pointer;
+}
+
 /* svg {
     width: 50%;
 } */
+
+.colors-buttons-wrapper  {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    overflow: hidden;
+}
+
+.colors-buttons-wrapper button {
+    padding: 10px 15px;
+    color: white;
+    font-size: 16px;
+    margin: 0;
+    display: inline-block;
+    float: left;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+button#pandora {
+    background: #D70F64;
+    cursor: pointer;
+}
+
+button#op {
+    background: #FF3633;
+    cursor: pointer;
+}
+
+button#po {
+    background: #00BD72;
+    cursor: pointer;
+}
+
+.custom-color-wrapper input {
+    width: 40%;
+    float: left;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+#input-white-color {
+    width: 87%;
+    margin-bottom: 30px;
+}
+
+#apply-custom-color {
+    display: block;
+    float: none;
+    width: 225px;
+    /* margin-top: 30px; */
+}
+
+#apply-custom-color:hover {
+    background: tomato;
+    cursor: pointer;
+}
+
+#color-palette-wrapper {
+    margin-top: 40px;
+    font-size: 12px
+}
+
+/* #color-palette-wrapper div {
+    padding: 10px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+} */
+
+#color-palette-wrapper textarea {
+    border: none;
+    resize: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#color-palette-wrapper span {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+#color-palette-wrapper div {
+    margin-bottom: 20px;
+}
+
+#genrate-color-palette {
+    background: tomato;
+    padding: 10px 15px;
+    color:  white;
+    border: none;
+    margin-top: 20px;
+    font-size: 16px;
+    cursor: pointer
+}
+#genrate-color-palette:hover {
+    background: #000;
+}
