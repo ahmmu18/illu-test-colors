@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,14 +20,22 @@ html, body {
     height: 100vh;
 }
 
-input {
+input:placeholder-shown  {
     display: inline-block;
+    border: 1px solid #eee
+}
+
+input {
+    border: none
+}
+
+input:last-child {
+    color: #333 !important
 }
 
 .svg-wrapper {
     width: 70%;
     float: right;
-    /* overflow: hidden; */
 }
 
 .illu {
@@ -36,13 +45,11 @@ input {
 }
 
 .illustrations-buttons-wrapper {
-    /* display: block;
-    width: 100%;
-    float: none; */
     overflow: hidden;
 }
 
-.illustrations-buttons-wrapper button, #apply-custom-color {
+.illustrations-buttons-wrapper button,
+#apply-custom-color {
     padding: 10px 15px;
     background: black;
     color: white;
@@ -60,11 +67,7 @@ input {
     cursor: pointer;
 }
 
-/* svg {
-    width: 50%;
-} */
-
-.colors-buttons-wrapper  {
+.colors-buttons-wrapper {
     margin-top: 60px;
     margin-bottom: 60px;
     overflow: hidden;
@@ -76,7 +79,6 @@ input {
     font-size: 16px;
     margin: 0;
     display: inline-block;
-    float: left;
     border: 1px solid white;
     cursor: pointer;
 }
@@ -97,14 +99,12 @@ button#po {
 }
 
 .custom-color-wrapper input {
-    width: 40%;
+    width: 17%;
     float: left;
     padding: 10px;
-    text-transform: uppercase;
 }
 
 #input-white-color {
-    width: 87%;
     margin-bottom: 30px;
 }
 
@@ -112,7 +112,6 @@ button#po {
     display: block;
     float: none;
     width: 225px;
-    /* margin-top: 30px; */
 }
 
 #apply-custom-color:hover {
@@ -120,16 +119,27 @@ button#po {
     cursor: pointer;
 }
 
+.inputs-wraps {
+    overflow: hidden;
+}
+
+.btn-wraps {
+    width: 100%;
+    float: none;
+    overflow: hidden;
+}
+
+.btn-wraps button {
+    float: left !important;
+    width: 180px !important;
+    font-size: 14px !important;
+    margin-top: 20px !important;
+}
+
 #color-palette-wrapper {
     margin-top: 40px;
     font-size: 12px
 }
-
-/* #color-palette-wrapper div {
-    padding: 10px;
-    border: 1px solid #ccc;
-    overflow: hidden;
-} */
 
 #color-palette-wrapper textarea {
     border: none;
@@ -141,8 +151,17 @@ button#po {
 #color-palette-wrapper span {
     width: 10px;
     height: 10px;
+    margin-right: 5px;
     display: inline-block;
     text-transform: uppercase;
+}
+
+#color-palette-wrapper li {
+    list-style: none;
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 1.5;
+    width: 75px;
 }
 
 #color-palette-wrapper div {
@@ -152,12 +171,77 @@ button#po {
 #genrate-color-palette {
     background: tomato;
     padding: 10px 15px;
-    color:  white;
+    color: white;
     border: none;
     margin-top: 20px;
     font-size: 16px;
     cursor: pointer
 }
+
 #genrate-color-palette:hover {
     background: #000;
+}
+
+button.active {
+    background: tomato
+}
+
+.brand-primary {
+    fill: #D70F64
+}
+
+.brand-secondary {
+    fill: #2C71BB
+}
+
+.brand-secondary-five {
+    fill: #F4F8FB
+}
+
+.brand-secondary-10 {
+    fill: #E9F0F8
+}
+
+.brand-secondary-20 {
+    fill: #D4E3F0
+}
+
+.brand-secondary-30 {
+    fill: #BFD3EB
+}
+
+.brand-secondary-40 {
+    fill: #ABC5E5
+}
+
+.brand-secondary-50 {
+    fill: #95B9DD
+}
+
+.brand-secondary-60 {
+    fill: #7FAAD5
+}
+
+.brand-secondary-70 {
+    fill: #6C9BCF
+}
+
+.brand-secondary-80 {
+    fill: #568CC8
+}
+
+.brand-secondary-90 {
+    fill: #427FC0
+}
+
+.brand-dark {
+    fill: #0B1238
+}
+
+.brand-white {
+    fill: #FFFFFF
+}
+
+.none {
+    fill: none
 }
